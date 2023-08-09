@@ -106,3 +106,5 @@ node_modules/.bin/
 /cache1
 /cache0
 recent.toml
+xenia_canary.zip
+build.bat
