@@ -119,7 +119,7 @@ Emulator::Emulator(const std::filesystem::path& command_line,
       paused_(false),
       restoring_(false),
       restore_fence_() {
-#if XE_PLATFORM_WIN32 == 1
+/*#if XE_PLATFORM_WIN32 == 1
   // Show a disclaimer that links to the quickstart
   // guide the first time they ever open the emulator
   uint64_t persistent_flags = GetPersistentEmulatorFlags();
@@ -140,7 +140,7 @@ Emulator::Emulator(const std::filesystem::path& command_line,
     SetPersistentEmulatorFlags(persistent_flags |
                                EmulatorFlagDisclaimerAcknowledged);
   }
-#endif
+#endif*/
 }
 
 Emulator::~Emulator() {
